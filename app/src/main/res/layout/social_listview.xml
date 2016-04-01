@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/textView3"
-            android:textSize="35dp" />
+            android:textSize="30dp" />
     </LinearLayout>
 
 </LinearLayout>
