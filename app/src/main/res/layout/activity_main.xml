@@ -16,10 +16,11 @@
         android:layout_height="wrap_content"
         android:text="Social Network"
         android:id="@+id/textView"
-        android:gravity="center_horizontal"
         android:textSize="45dp"
         android:textStyle="normal|bold|italic"
-        android:textColor="#3540e7" />
+        android:textColor="#023046"
+        android:background="#cd13aaf0"
+        android:gravity="center_horizontal" />
 
     <Button
         android:layout_width="match_parent"
@@ -30,7 +31,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="false"
         android:textSize="35dp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:background="#da05ecf0" />
 
     <ListView
         android:layout_width="wrap_content"
