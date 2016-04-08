@@ -9,38 +9,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ice_pbru.khamhor.sirikwan.social.MainActivity"
     android:focusableInTouchMode="true"
-    android:background="@drawable/bgb">
+    android:background="#f7b3d1"
+    android:contextClickable="true">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Social Network"
+        android:text="อุปกรณ์อิเล็คทรอนิกส์"
         android:id="@+id/textView"
         android:textSize="45dp"
         android:textStyle="normal|bold|italic"
-        android:textColor="#023046"
-        android:background="#cd13aaf0"
-        android:gravity="center_horizontal" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="About me."
-        android:id="@+id/button"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="false"
-        android:textSize="35dp"
-        android:gravity="center"
-        android:background="#da05ecf0" />
+        android:textColor="#a851df"
+        android:background="#9cfafa"
+        android:gravity="center_horizontal"
+        android:textIsSelectable="true"
+        android:autoText="false" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/listView"
         android:layout_below="@+id/textView"
-        android:layout_above="@+id/button"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About me."
+        android:id="@+id/button"
+        android:layout_below="@+id/listView"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
