@@ -20,7 +20,7 @@
         android:textSize="45dp"
         android:textStyle="normal|bold|italic"
         android:textColor="#a851df"
-        android:background="#9cfafa"
+        android:background="#e6d7f9"
         android:gravity="center_horizontal"
         android:textIsSelectable="true"
         android:autoText="false" />
@@ -35,10 +35,11 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:text="About me."
         android:id="@+id/button"
         android:layout_below="@+id/listView"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:background="#e6d7f9" />
 
 </RelativeLayout>
